@@ -23,14 +23,20 @@
 
         <section id="redes-sociais">
             <ul >
-                <li><a href="#" target="Iframe"><img src="pacote-d013/imagens/logo-facebook.jpg" alt="logo-facebook"></a>
-                <li><a href="#" target="Iframe"><img src="pacote-d013/imagens/logo-github.jpg" alt="logo-github"></a>
-                <li><a href="#" target="Iframe"><img src="pacote-d013/imagens/logo-home.jpg" alt="logo-home"></a>
-                <li><a href="#" target="Iframe"><img src="pacote-d013/imagens/logo-instagram.jpg" alt="logo-instagram"></a>
-                <li><a href="#" target="Iframe"><img src="pacote-d013/imagens/logo-twitter.jpg" alt="logo-twitter"></a>
-                <li><a href="#" target="Iframe"><img src="pacote-d013/imagens/logo-youtube.jpg" alt="logo-youtube"></a>
+                <li><a href="home.html" target="Iframe"><img src="pacote-d013/imagens/logo-home.jpg" alt="logo-home"></a>
+                <li><a href="pagFacebook.html" target="Iframe"><img src="pacote-d013/imagens/logo-facebook.jpg" alt="logo-facebook"></a>
+                <li><a href="pagGithub.html" target="Iframe"><img src="pacote-d013/imagens/logo-github.jpg" alt="logo-github"></a>
+                <li><a href="pagInstagram.html" target="Iframe"><img src="pacote-d013/imagens/logo-instagram.jpg" alt="logo-instagram"></a>
+                <li><a href="pagTwitter.html" target="Iframe"><img src="pacote-d013/imagens/logo-twitter.jpg" alt="logo-twitter"></a>
+                <li><a href="pagYoutube.html" target="Iframe"><img src="pacote-d013/imagens/logo-youtube.jpg" alt="logo-youtube"></a>
             </ul>
         </section>
     </main>
+    <script>
+        if(!localStorage.getItem("visita")){
+            alert("Informação: Infelizmente eu tenho pouquissimas redes sociais entao o projecto teve que ser mantido com as fotos do Gustavo Guanabara! #CursoEmVideo")
+            localStorage.setItem("visita", 1)
+        }
+    </script>
 </body>
 </html>
